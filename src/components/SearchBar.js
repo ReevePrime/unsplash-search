@@ -14,7 +14,8 @@ class SearchBar extends Component {
         <div className="ui segment">
             <form onSubmit={this.onFormSubmit} className="ui form" action="">
                 <div className="field">
-                    <label htmlFor="">Image Search</label>
+                    <h1>Unsplash Gallery Viewer</h1>
+                    <label htmlFor=""><span>Look up any image you want directly from Unsplash</span></label>
                     <input  
                     type="text"   
                     value={this.state.term}                
