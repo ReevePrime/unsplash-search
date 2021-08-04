@@ -10,12 +10,12 @@ span {
 .image-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 0 10px;
+    position: relative;
 }
-
 .image-list img {
     max-width: 100%;
-    height: auto;
+    padding: 10px;
+    position: relative;
 }
 
 .ui.segment {
@@ -24,6 +24,7 @@ span {
     border: none;
     box-shadow: none;
 }
+
 
 .ui.segment::before {
     content: "";
@@ -38,4 +39,3 @@ span {
     background-position: center;
 
 }
-

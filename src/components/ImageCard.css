@@ -1,0 +1,26 @@
+
+.gallery-container {
+    display: grid;
+    position: relative;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+i {
+    pointer-events: none;
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition-duration: .2s;
+  }
+
+
+.gallery-container:hover {
+    opacity: .7;
+  }
+
+  .gallery-container:hover + i {
+    transform: scale(5);
+    color:white;
+  }
